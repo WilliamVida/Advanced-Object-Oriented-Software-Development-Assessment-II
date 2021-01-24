@@ -1,0 +1,16 @@
+package ie.gmit.sw;
+
+public class Omicron {
+	
+	Delta delta = new Delta();
+
+	public void add(Lambda lambda) {
+		delta.betas.add(lambda);
+		System.out.println("public void add(Beta beta) " + getClass() + "\n");
+	}
+
+	public void remove(Lambda lambda) {
+		delta.betas.remove(lambda);
+		System.out.println("public void remove(Beta beta) " + getClass() + "\n");
+	}
+}

@@ -1,0 +1,21 @@
+package ie.gmit.sw;
+
+public class Lambda implements Omega {
+
+	@Override
+	public byte beta(byte b) {
+		int i = b;
+		return (byte) (i ^ 0xFFFFFFFF);
+	}
+
+	@Override
+	public int epsilon(int i) {
+		return i & 0xFF000000;
+	}
+
+	@Override
+	public int zeta(int i) {
+		return i & 0x000000FF;
+	}
+
+}

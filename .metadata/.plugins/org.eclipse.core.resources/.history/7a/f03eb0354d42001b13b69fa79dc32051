@@ -1,0 +1,21 @@
+package ie.gmit.sw;
+
+import java.util.Iterator;
+
+public interface _Test {
+
+	void add(Lambda beta);
+
+	void add(Gamma gamma);
+
+	void remove(Lambda beta);
+
+	void remove(Sigma gamma);
+
+	Status getStatus();
+
+	Iterator<Lambda> betaIterator();
+
+	Iterator<Gamma> gammaIterator();
+
+}

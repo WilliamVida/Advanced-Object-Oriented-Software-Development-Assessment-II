@@ -1,0 +1,43 @@
+package ie.gmit.sw;
+
+import java.util.ArrayList;
+
+public class AddRemove {
+
+	protected _RemoveData data = new _RemoveData(new ArrayList<>(), new ArrayList<>(), new ArrayList<>());
+
+	public AddRemove() {
+		super();
+	}
+
+	public void add(Beta beta) {
+		data.betas.add(beta);
+		System.out.println("public void add(Beta beta) "+getClass()+"\n");
+	}
+
+	public void add(Epsilon epsilon) {
+		data.epsilons.add(epsilon);
+		System.out.println("public void add(Epsilon epsilon) "+getClass()+"\n");
+	}
+
+	public void add(Zeta zeta) {
+		data.zetas.add(zeta);
+		System.out.println("public void add(Zeta zeta) "+getClass()+"\n");
+	}
+
+	public void remove(Beta beta) {
+		data.betas.remove(beta);
+		System.out.println("public void remove(Beta beta) "+getClass()+"\n");
+	}
+
+	public void remove(Epsilon epsilon) {
+		data.epsilons.remove(epsilon);
+		System.out.println("public void remove(Epsilon epsilon) "+getClass()+"\n");
+	}
+
+	public void remove(Zeta zeta) {
+		data.zetas.remove(zeta);
+		System.out.println("public void remove(Zeta zeta) "+getClass()+"\n");
+	}
+
+}

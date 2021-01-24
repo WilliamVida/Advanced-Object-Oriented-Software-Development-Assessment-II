@@ -1,0 +1,13 @@
+package ie.gmit.sw;
+
+public class Alpha {
+
+	private Status status;
+	AlphaAddRemove alphaAdd = new AlphaAddRemove();
+
+	public Alpha(Status status) {
+		this.status = status;
+		System.out.println("public Alpha(Status status) " + getClass() + "\n");
+	}
+
+}

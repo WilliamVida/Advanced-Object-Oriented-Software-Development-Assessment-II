@@ -1,0 +1,13 @@
+package ie.gmit.sw;
+
+public class Omega extends AlphaAddRemove {
+
+		public boolean hasGamma(Gamma gamma) {
+		return gammas.contains(gamma);
+	}
+	
+	public boolean hasLambda(Lambda lambda) {
+		return .lambdas.contains(lambda);
+	}
+
+}

@@ -1,0 +1,14 @@
+package ie.gmit.sw;
+
+import java.util.Collection;
+
+public class Mu {
+	public Status status;
+	public Collection<Lambda> betas;
+	public Collection<Gamma> gammas;
+
+	public Mu(Collection<Lambda> betas, Collection<Gamma> gammas) {
+		this.betas = betas;
+		this.gammas = gammas;
+	}
+}

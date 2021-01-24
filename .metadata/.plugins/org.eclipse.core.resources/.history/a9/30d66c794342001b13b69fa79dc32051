@@ -1,0 +1,20 @@
+package ie.gmit.sw;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class Omicron {
+	private Collection<Lambda> betas = new ArrayList<>();
+	private Collection<Lambda> epsilons = new ArrayList<>();
+	private Collection<Lambda> zetas = new ArrayList<>();
+
+	public void add(Lambda lambda) {
+		betas.add(lambda);
+		System.out.println("public void add(Beta beta) " + getClass() + "\n");
+	}
+
+	public void remove(Lambda lambda) {
+		betas.remove(lambda);
+		System.out.println("public void remove(Beta beta) " + getClass() + "\n");
+	}
+}

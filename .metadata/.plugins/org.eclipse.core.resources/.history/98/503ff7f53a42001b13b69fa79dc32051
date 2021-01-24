@@ -1,0 +1,33 @@
+package ie.gmit.sw;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class Omega {
+
+	protected Status status;
+	protected Collection<Sigma> betas = new ArrayList<>();
+	protected Collection<Sigma> gammas = new ArrayList<>();
+
+	public Omega() {
+		super();
+	}
+
+	public void add(Sigma beta) {
+		switch (status) {
+		case Slight, Medium, Low -> betas.add(beta);
+		case High, Extreme -> {
+			Omicron delta = new Delta();
+			delta.add(beta);
+		}
+		}
+
+		System.out.println("public void add(Beta beta) " + getClass() + "\n");
+	}
+
+	public void remove(Lambda beta) {
+		betas.remove(beta);
+		System.out.println("public void remove(Beta beta) " + getClass() + "\n");
+	}
+
+}

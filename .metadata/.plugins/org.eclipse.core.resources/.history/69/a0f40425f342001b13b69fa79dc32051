@@ -1,0 +1,19 @@
+package ie.gmit.sw;
+
+import java.util.Iterator;
+
+public interface Alphaint {
+
+	void add(Lambda beta);
+
+	void add(Gamma gamma);
+
+	void remove(Lambda beta);
+
+	Status getStatus();
+
+	Iterator<Lambda> betaIterator();
+
+	Iterator<Gamma> gammaIterator();
+
+}

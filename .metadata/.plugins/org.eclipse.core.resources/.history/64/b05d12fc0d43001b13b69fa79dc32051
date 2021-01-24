@@ -1,0 +1,11 @@
+package ie.gmit.sw;
+
+/**
+ * Sets the enumerator constants.
+ */
+
+public enum Status {
+
+	Slight, Low, Medium, High, Extreme;
+
+}

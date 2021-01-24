@@ -1,0 +1,15 @@
+package ie.gmit.sw;
+
+public class Alpha {
+
+	//Status status;
+StatusGet statusGet = new StatusGet();
+
+	public Alpha(Status status) {
+		//StatusGet.g
+		
+		statusGet.getStatus()= status;
+		System.out.println("public Alpha(Status status) " + getClass() + "\n");
+	}
+
+}

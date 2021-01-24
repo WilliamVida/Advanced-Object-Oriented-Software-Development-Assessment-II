@@ -1,0 +1,11 @@
+command=C\:\\Program Files\\Java\\jdk-15\\bin\\javadoc.exe
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="ie.gmit.sw.Beta"><rhs name\="ie.gmit.sw.Beta"/></lhs><lhs name\="ie.gmit.sw.Alpha"><rhs name\="ie.gmit.sw.Alpha"/></lhs><lhs name\="ie.gmit.sw.Delta"><rhs name\="ie.gmit.sw.Delta"/></lhs><lhs name\="ie.gmit.sw.Omicron"><rhs name\="ie.gmit.sw.Omicron"/></lhs><lhs name\="ie.gmit.sw.AlphaAdd"><rhs name\="ie.gmit.sw.AlphaAdd"/></lhs><lhs name\="ie.gmit.sw.Gamma"><rhs name\="ie.gmit.sw.Gamma"/></lhs><lhs name\="ie.gmit.sw.AlphaAddRemove"><rhs name\="ie.gmit.sw.AlphaAddRemove"/></lhs><lhs name\="ie.gmit.sw.StatusGet"><rhs name\="ie.gmit.sw.StatusGet"/></lhs><lhs name\="ie.gmit.sw.DeltaAddRemove"><rhs name\="ie.gmit.sw.DeltaAddRemove"/></lhs><lhs name\="java.lang.Enum"><rhs name\="ie.gmit.sw.Status"/></lhs><lhs name\="java.lang.constant.Constable"><rhs name\="ie.gmit.sw.Status"/></lhs><lhs name\="ie.gmit.sw.Status"><rhs name\="ie.gmit.sw.Status"/></lhs><lhs name\="ie.gmit.sw.AlphaIterator"><rhs name\="ie.gmit.sw.AlphaIterator"/></lhs><lhs name\="ie.gmit.sw.LambdaInterface"><rhs name\="ie.gmit.sw.Lambda"/></lhs><lhs name\="ie.gmit.sw.Lambda"><rhs name\="ie.gmit.sw.Lambda"/></lhs><lhs name\="ie.gmit.sw.DeltaIterator"><rhs name\="ie.gmit.sw.DeltaIterator"/></lhs></history>
+content_assist_number_of_computers=12
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.ui.formatterprofiles.version=20
+spelling_locale=en_GB
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

@@ -1,0 +1,16 @@
+package ie.gmit.sw;
+
+public class Alpha extends Mu {
+
+	private Status status;
+
+	public Alpha(Status status) {
+		this.status = status;
+		System.out.println("public Alpha(Status status) " + getClass() + "\n");
+	}
+
+	public Status getStatus() {
+		return status;
+	}
+
+}

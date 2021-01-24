@@ -1,0 +1,36 @@
+package ie.gmit.sw;
+
+import java.util.Arrays;import com.sun.tools.classfile.StackMap_attribute.stack_map_frame;
+import com.sun.tools.javac.code.Attribute.Array;
+
+import sun.security.x509.DeltaCRLIndicatorExtension;
+
+/**
+ * 
+ * 
+ * @author William Vida
+ */
+
+public class Client {
+
+	public static void main(String[] args) {
+		AlphaAddRemove alphaAddRemove = new AlphaAddRemove();
+		DeltaAddRemove deltaAddRemove = new DeltaAddRemove();
+		Lambda lambda = new Lambda();
+		Gamma gamma = new Gamma();
+
+		alphaAddRemove.status = Status.Extreme;
+		alphaAddRemove.add(lambda);
+
+		alphaAddRemove.status = Status.Low;
+		alphaAddRemove.add(lambda);
+
+		AlphaIterator alphaIterator = new AlphaIterator();
+
+		alphaIterator.lambdaIterator();
+		alphaIterator.gammaIterator();
+		System.out.println(Arrays.toString(stack.toArray()));
+		deltaAddRemove.betas;
+	}
+
+}

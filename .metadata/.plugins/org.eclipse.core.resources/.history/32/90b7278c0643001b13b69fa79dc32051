@@ -1,0 +1,17 @@
+package ie.gmit.sw;
+
+/**
+ * 
+ * @author William Vida
+ *
+ */
+
+public interface LambdaInterface {
+
+	byte beta(byte b);
+
+	int epsilon(int i);
+
+	int zeta(int i);
+
+}

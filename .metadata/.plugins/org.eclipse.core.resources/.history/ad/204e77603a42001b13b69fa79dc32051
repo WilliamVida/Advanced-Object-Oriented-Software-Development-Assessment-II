@@ -1,0 +1,46 @@
+package ie.gmit.sw;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class Omicron {
+
+	protected Collection<Sigma> betas = new ArrayList<>();
+	protected Collection<Sigma> epsilons = new ArrayList<>();
+	protected Collection<Sigma> zetas = new ArrayList<>();
+
+	public Omicron() {
+		super();
+	}
+
+	public void add(Sigma beta) {
+		betas.add(beta);
+		System.out.println("public void add(Beta beta) " + getClass() + "\n");
+	}
+
+	public void add(Sigma epsilon) {
+		epsilons.add(epsilon);
+		System.out.println("public void add(Epsilon epsilon) " + getClass() + "\n");
+	}
+
+	public void add(Sigma zeta) {
+		zetas.add(zeta);
+		System.out.println("public void add(Zeta zeta) " + getClass() + "\n");
+	}
+
+	public void remove(Sigma beta) {
+		betas.remove(beta);
+		System.out.println("public void remove(Beta beta) " + getClass() + "\n");
+	}
+
+	public void remove(Epsilon epsilon) {
+		epsilons.remove(epsilon);
+		System.out.println("public void remove(Epsilon epsilon) " + getClass() + "\n");
+	}
+
+	public void remove(Zeta zeta) {
+		zetas.remove(zeta);
+		System.out.println("public void remove(Zeta zeta) " + getClass() + "\n");
+	}
+
+}

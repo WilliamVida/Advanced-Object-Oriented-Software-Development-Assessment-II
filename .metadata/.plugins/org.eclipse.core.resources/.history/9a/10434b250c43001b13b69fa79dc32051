@@ -1,0 +1,15 @@
+package ie.gmit.sw;
+
+/**
+ * Returns a byte value gamme
+ * 
+ * @author William Vida
+ */
+
+public class Gamma {
+
+	public byte gamma(byte b) {
+		return (byte) (Integer.reverse(b));
+	}
+
+}

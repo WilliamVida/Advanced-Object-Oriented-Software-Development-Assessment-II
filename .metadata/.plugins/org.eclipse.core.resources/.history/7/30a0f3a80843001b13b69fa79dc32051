@@ -1,0 +1,28 @@
+package ie.gmit.sw;
+
+import java.util.Arrays;
+
+/**
+ * 
+ * 
+ * @author William Vida
+ */
+
+public class Client {
+
+	public static void main(String[] args) {
+		AlphaAddRemove alphaAddRemove = new AlphaAddRemove();
+		Lambda lambda = new Lambda();
+		Gamma gamma = new Gamma();
+		
+		alphaAddRemove.status=Status.Extreme;
+
+//		alphaAddRemove.status = Status.Extreme;
+//		alphaAddRemove.add(lambda);
+//
+//		alphaAddRemove.status = Status.Low;
+//		alphaAddRemove.add(lambda);
+
+	}
+
+}

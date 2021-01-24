@@ -1,0 +1,47 @@
+package ie.gmit.sw;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
+
+public class Delta {
+
+	Collection<Lambda> betas = new ArrayList<>();
+	Collection<Lambda> epsilons = new ArrayList<>();
+	Collection<Lambda> zetas = new ArrayList<>();
+
+	public void add(Lambda lambda) {
+		betas.add(lambda);
+		System.out.println("public void add(Beta beta) " + getClass() + "\n");
+	}
+
+	public void remove(Lambda lambda) {
+		betas.remove(lambda);
+		System.out.println("public void remove(Beta beta) " + getClass() + "\n");
+	}
+
+	public Iterator<Lambda> betaIterator() {
+		return betas.iterator();
+	}
+
+	public Iterator<Lambda> epsilonIterator() {
+		return epsilons.iterator();
+	}
+
+	public Iterator<Lambda> zetaIterator() {
+		return zetas.iterator();
+	}
+
+	public boolean hasBeta(Lambda lambda) {
+		return betas.contains(lambda.beta());
+	}
+
+	public boolean hasEpsilon(Lambda lambda) {
+		return epsilons.contains(lambda);
+	}
+
+	public boolean hasZeta(Lambda lambda) {
+		return zetas.contains(lambda);
+	}
+
+}

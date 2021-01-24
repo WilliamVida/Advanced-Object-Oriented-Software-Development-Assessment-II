@@ -1,0 +1,11 @@
+package ie.gmit.sw;
+
+public class Delta {
+
+	DeltaAddRemove deltaAddRemove = new DeltaAddRemove();
+
+	public boolean hasLambda(Lambda lambda) {
+		return deltaAddRemove.lambdas.contains(lambda);
+	}
+
+}

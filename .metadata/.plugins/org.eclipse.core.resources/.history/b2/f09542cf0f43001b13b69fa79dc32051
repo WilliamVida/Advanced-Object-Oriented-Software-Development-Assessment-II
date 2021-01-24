@@ -1,0 +1,22 @@
+package ie.gmit.sw;
+
+/**
+ * This class returns a boolean value to check if a collection contains gamma or
+ * lambda.
+ * 
+ * @author William Vida
+ */
+
+public class Omega {
+
+	Sigma sigma = new Sigma();
+
+	public boolean hasGamma(Gamma gamma) {
+		return sigma.gammas.contains(gamma);
+	}
+
+	public boolean hasLambda(Lambda lambda) {
+		return sigma.lambdas.contains(lambda);
+	}
+
+}

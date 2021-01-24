@@ -1,0 +1,24 @@
+package ie.gmit.sw;
+
+public class RemoveSuper extends AddSuper {
+
+	public RemoveSuper() {
+		super();
+	}
+
+	public void remove(Beta beta) {
+		betas.remove(beta);
+		System.out.println("public void remove(Beta beta)\n");
+	}
+
+	public void remove(Epsilon epsilon) {
+		epsilons.remove(epsilon);
+		System.out.println("public void remove(Epsilon epsilon)\n");
+	}
+
+	public void remove(Zeta zeta) {
+		zetas.remove(zeta);
+		System.out.println("public void remove(Zeta zeta)\n");
+	}
+
+}

@@ -1,0 +1,17 @@
+package ie.gmit.sw;
+
+import java.util.Iterator;
+
+public class DeltaIterator {
+
+	Delta delta=new Delta();
+	
+	public Iterator<Lambda> betaIterator() {
+		return delta.betas.iterator();
+	}
+
+	public Iterator<Lambda> epsilonIterator() {
+		return delta.epsilons.iterator();
+	}
+	
+}

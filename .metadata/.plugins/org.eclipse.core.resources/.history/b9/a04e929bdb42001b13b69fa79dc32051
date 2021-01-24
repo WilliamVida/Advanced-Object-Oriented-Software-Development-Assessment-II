@@ -1,0 +1,18 @@
+package ie.gmit.sw;
+
+public class Lambda {
+
+	public byte beta(byte b) {
+		int i = b;
+		return (byte) (i ^ 0xFFFFFFFF);
+	}
+
+	public int epsilon(int i) {
+		return i & 0xFF000000;
+	}
+
+	public int zeta(int i) {
+		return i & 0x000000FF;
+	}
+
+}

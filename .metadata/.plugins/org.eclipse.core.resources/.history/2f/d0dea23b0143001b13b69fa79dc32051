@@ -1,0 +1,12 @@
+package ie.gmit.sw;
+
+public class StatusGet {
+
+	Status status;
+	Alpha alpha = new Alpha(status);
+
+	public Status getStatus() {
+		return null;
+	}
+
+}

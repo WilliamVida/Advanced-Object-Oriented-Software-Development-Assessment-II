@@ -1,0 +1,11 @@
+package ie.gmit.sw;
+
+public interface LambdaInterface {
+
+	byte beta(byte b);
+
+	int epsilon(int i);
+
+	int zeta(int i);
+
+}

@@ -1,0 +1,15 @@
+package ie.gmit.sw;
+
+import java.util.Collection;
+
+public class _Test {
+	public Collection<Lambda> betas;
+	public Collection<Lambda> epsilons;
+	public Collection<Lambda> zetas;
+
+	public _Test(Collection<Lambda> betas, Collection<Lambda> epsilons, Collection<Lambda> zetas) {
+		this.betas = betas;
+		this.epsilons = epsilons;
+		this.zetas = zetas;
+	}
+}

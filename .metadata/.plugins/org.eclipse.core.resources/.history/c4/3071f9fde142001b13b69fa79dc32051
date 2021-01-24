@@ -1,0 +1,52 @@
+package ie.gmit.sw;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
+
+public class Alpha {
+
+	private Status status;
+	private Collection<Lambda> betas = new ArrayList<>();
+	private Collection<Gamma> gammas = new ArrayList<>();
+
+	public Alpha(Status status) {
+		this.status = status;
+		System.out.println("public Alpha(Status status) " + getClass() + "\n");
+	}
+
+	public void add(Lambda beta) {
+		switch (status) {
+		case Slight, Medium, Low -> betas.add(beta);
+		case High, Extreme -> {
+			Delta delta = new Delta();
+			delta.add(beta);
+		}
+		}
+
+		System.out.println("public void add(Beta beta) " + getClass() + "\n");
+	}
+
+	public void add(Gamma gamma) {
+		gammas.add(gamma);
+		System.out.println("public void add(Gamma gamma) " + getClass() + "\n");
+	}
+
+	public void remove(Lambda beta) {
+		betas.remove(beta);
+		System.out.println("public void remove(Beta beta) " + getClass() + "\n");
+	}
+
+	public Status getStatus() {
+		return status;
+	}
+
+	public Iterator<Lambda> betaIterator() {
+		return betas.iterator();
+	}
+
+	public Iterator<Gamma> gammaIterator() {
+		return gammas.iterator();
+	}
+
+}

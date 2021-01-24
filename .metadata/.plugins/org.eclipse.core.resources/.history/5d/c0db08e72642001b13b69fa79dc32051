@@ -1,0 +1,37 @@
+package ie.gmit.sw;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class AddSuper {
+
+	protected Collection<Beta> betas = new ArrayList<>();
+	protected Collection<Epsilon> epsilons = new ArrayList<>();
+	protected Collection<Zeta> zetas = new ArrayList<>();
+
+	public AddSuper() {
+		super();
+	}
+
+	/**
+	 * 
+	 * METHODS WITH SAME NAME DO SAME THING - BAD
+	 * 
+	 * @param beta
+	 */
+	public void add(Beta beta) {
+		betas.add(beta);
+		System.out.println("public void add(Beta beta)\n");
+	}
+
+	public void add(Epsilon epsilon) {
+		epsilons.add(epsilon);
+		System.out.println("public void add(Epsilon epsilon)\n");
+	}
+
+	public void add(Zeta zeta) {
+		zetas.add(zeta);
+		System.out.println("public void add(Zeta zeta)\n");
+	}
+
+}

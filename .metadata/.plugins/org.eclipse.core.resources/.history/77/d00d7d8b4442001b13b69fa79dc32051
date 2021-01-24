@@ -1,0 +1,39 @@
+package ie.gmit.sw;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
+
+public class Delta {
+
+	protected Collection<Lambda> betas = new ArrayList<>();
+	private Collection<Lambda> epsilons = new ArrayList<>();
+	private Collection<Lambda> zetas = new ArrayList<>();
+
+
+
+	public Iterator<Lambda> betaIterator() {
+		return betas.iterator();
+	}
+
+	public Iterator<Lambda> epsilonIterator() {
+		return epsilons.iterator();
+	}
+
+	public Iterator<Lambda> zetaIterator() {
+		return zetas.iterator();
+	}
+
+	public boolean hasBeta(Lambda beta) {
+		return betas.contains(beta);
+	}
+
+	public boolean hasEpsilon(Lambda epsilon) {
+		return epsilons.contains(epsilon);
+	}
+
+	public boolean hasZeta(Lambda zeta) {
+		return zetas.contains(zeta);
+	}
+
+}

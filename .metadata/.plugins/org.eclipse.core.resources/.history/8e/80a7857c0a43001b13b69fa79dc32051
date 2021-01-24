@@ -1,0 +1,21 @@
+package ie.gmit.sw;
+
+/**
+ * Checks if a collection contains a gamma or lambda.
+ * 
+ * @author William Vida
+ */
+
+public class Omega {
+
+	AlphaAddRemove alphaAddRemove = new AlphaAddRemove();
+
+	public boolean hasGamma(Gamma gamma) {
+		return alphaAddRemove.gammas.contains(gamma);
+	}
+
+	public boolean hasLambda(Lambda lambda) {
+		return alphaAddRemove.lambdas.contains(lambda);
+	}
+
+}

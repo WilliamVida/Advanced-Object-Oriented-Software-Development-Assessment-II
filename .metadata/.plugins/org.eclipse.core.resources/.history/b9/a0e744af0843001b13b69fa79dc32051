@@ -1,0 +1,45 @@
+package ie.gmit.sw;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+/**
+ * 
+ * 
+ * @author William Vida
+ */
+
+public class AlphaAddRemove {
+
+	Status status;
+	Collection<Lambda> lambdas = new ArrayList<>();
+	Collection<Gamma> gammas = new ArrayList<>();
+
+	public void add(Lambda lambda) {
+		switch (status) {
+		case Slight, Medium, Low -> lambdas.add(lambda);
+		case High, Extreme -> {
+			//AlphaAddRemove alphaAddRemove = new AlphaAddRemove();
+			add(lambda);
+		}
+		}
+
+		System.out.println("public void add(Lambda lambda) Status: " + status + " " + getClass() + "\n");
+	}
+
+	public void add(Gamma gamma) {
+		gammas.add(gamma);
+		System.out.println("public void add(Gamma gamma) " + getClass() + "\n");
+	}
+
+	public void remove(Lambda lambda) {
+		lambdas.remove(lambda);
+		System.out.println("public void remove(Lambda lambda) " + getClass() + "\n");
+	}
+
+	public void remove(Gamma gamma) {
+		gammas.remove(gamma);
+		System.out.println("public void remove(Gamma gamma) " + getClass() + "\n");
+	}
+
+}

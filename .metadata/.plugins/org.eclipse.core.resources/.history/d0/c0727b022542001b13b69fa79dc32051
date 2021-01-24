@@ -1,0 +1,14 @@
+package ie.gmit.sw;
+
+import java.util.Collection;
+
+public class Eta {
+	public Status status;
+	public Collection<Beta> betas;
+	public Collection<Gamma> gammas;
+
+	public Eta(Collection<Beta> betas, Collection<Gamma> gammas) {
+		this.betas = betas;
+		this.gammas = gammas;
+	}
+}

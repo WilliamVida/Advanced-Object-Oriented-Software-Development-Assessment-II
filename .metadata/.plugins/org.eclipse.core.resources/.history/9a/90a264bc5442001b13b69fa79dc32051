@@ -1,0 +1,50 @@
+package ie.gmit.sw;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
+
+public class Delta extends Pi {
+
+//	private static Delta single_instance = null;
+//
+//	private Delta() {
+//		
+//	}
+//
+//	public static Delta getInstance() {
+//		if (single_instance == null)
+//			single_instance = new Delta();
+//
+//		return single_instance;
+//	}
+
+	public Collection<Lambda> betas = new ArrayList<>();
+	public Collection<Lambda> epsilons = new ArrayList<>();
+	public Collection<Lambda> zetas = new ArrayList<>();
+
+	public Iterator<Lambda> betaIterator() {
+		return betas.iterator();
+	}
+
+	public Iterator<Lambda> epsilonIterator() {
+		return epsilons.iterator();
+	}
+
+	public Iterator<Lambda> zetaIterator() {
+		return zetas.iterator();
+	}
+
+	public boolean hasBeta(Lambda beta) {
+		return betas.contains(beta);
+	}
+
+	public boolean hasEpsilon(Lambda epsilon) {
+		return epsilons.contains(epsilon);
+	}
+
+	public boolean hasZeta(Lambda zeta) {
+		return zetas.contains(zeta);
+	}
+
+}

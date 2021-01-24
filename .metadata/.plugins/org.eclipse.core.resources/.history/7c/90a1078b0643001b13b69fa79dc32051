@@ -1,0 +1,13 @@
+package ie.gmit.sw;
+
+import java.util.Iterator;
+
+public class DeltaIterator {
+
+	DeltaAddRemove deltaAddRemove = new DeltaAddRemove();
+
+	public Iterator<Lambda> betaIterator() {
+		return deltaAddRemove.lambdas.iterator();
+	}
+
+}

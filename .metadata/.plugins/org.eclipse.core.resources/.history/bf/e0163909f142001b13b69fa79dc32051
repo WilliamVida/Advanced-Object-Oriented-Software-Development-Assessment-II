@@ -1,0 +1,9 @@
+package ie.gmit.sw;
+
+public class Alpha  extends AlphaAddRemoveIterator {
+
+	public Alpha(Status status) {
+		System.out.println("public Alpha(Status status) " + getClass() + "\n");
+	}
+
+}

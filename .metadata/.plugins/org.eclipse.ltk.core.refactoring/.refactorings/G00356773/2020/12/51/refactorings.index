@@ -1,0 +1,43 @@
+1608400936209	Extract superclass 'Eta'
+1608400955116	Delete element
+1608401204202	Extract Class...
+1608401228807	Delete element
+1608402032947	Extract superclass 'AddSuper'
+1608402833052	Extract superclass 'RemoveSuper'
+1608402918090	Delete elements
+1608403892948	Delete elements
+1608404340015	Extract interface 'Theta'
+1608404495324	Delete element
+1608404526686	Extract interface 'Theta'
+1608404535580	Delete element
+1608404540137	Delete element
+1608404543823	Delete element
+1608404547117	Delete element
+1608404619759	Delete elements
+1608408711620	Delete element
+1608409181559	Delete elements
+1608409204868	Extract interface 'Theta'
+1608409246420	Delete elements
+1608409925316	Extract superclass 'Omega'
+1608410214660	Extract superclass 'Omicron'
+1608410351280	Delete elements
+1608410519760	Extract interface 'Lambda'
+1608410757266	Delete elements
+1608410840865	Delete elements
+1608410867476	Extract interface 'Omega'
+1608411019840	Extract interface 'Sigma'
+1608479553155	Move folder
+1608479630297	Delete elements
+1608479654039	Extract interface 'LambdaInterface'
+1608482396109	Extract Class...
+1608488736467	Delete element
+1608488935185	Delete element
+1608490658756	Rename type 'AlphaAdd'
+1608490896366	Rename type 'GetStatus'
+1608495347197	Rename field 'betas'
+1608495813958	Delete element
+1608498534808	Delete element
+1608500188051	Rename type 'AlphaAddRemove'
+1608500217535	Rename type 'AlphaIterator'
+1608500307072	Rename type 'LambdaInterface'
+1608505402557	Delete element

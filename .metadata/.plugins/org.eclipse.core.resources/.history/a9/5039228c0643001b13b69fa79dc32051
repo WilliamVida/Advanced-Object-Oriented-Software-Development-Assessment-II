@@ -1,0 +1,17 @@
+package ie.gmit.sw;
+
+import java.util.Iterator;
+
+public class AlphaIterator {
+
+	AlphaAddRemove alphaAddRemove = new AlphaAddRemove();
+
+	public Iterator<Lambda> lambdaIterator() {
+		return alphaAddRemove.lambdas.iterator();
+	}
+
+	public Iterator<Gamma> gammaIterator() {
+		return alphaAddRemove.gammas.iterator();
+	}
+
+}

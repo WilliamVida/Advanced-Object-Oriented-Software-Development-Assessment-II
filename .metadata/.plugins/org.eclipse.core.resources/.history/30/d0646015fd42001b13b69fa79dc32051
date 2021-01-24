@@ -1,0 +1,15 @@
+package ie.gmit.sw;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
+
+public class Delta {
+
+	DeltaAddRemove deltaAddRemove =new DeltaAddRemove();
+	
+	public boolean hasLambda(Lambda lambda) {
+		return DeltaAddRemovebetas.contains(lambda);
+	}
+
+}

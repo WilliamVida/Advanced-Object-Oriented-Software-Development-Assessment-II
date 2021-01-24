@@ -1,0 +1,15 @@
+package ie.gmit.sw;
+
+/**
+ * 
+ * 
+ * @author William Vida
+ */
+
+public class Client {
+
+	public static void main(String[] args) {
+
+	}
+
+}

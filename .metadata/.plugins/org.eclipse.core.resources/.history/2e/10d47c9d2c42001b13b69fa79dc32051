@@ -1,0 +1,15 @@
+package ie.gmit.sw;
+
+/**
+ * 
+ * Eta Interface
+ * 
+ * @author William
+ *
+ */
+
+public interface Theta {
+	
+	
+
+}

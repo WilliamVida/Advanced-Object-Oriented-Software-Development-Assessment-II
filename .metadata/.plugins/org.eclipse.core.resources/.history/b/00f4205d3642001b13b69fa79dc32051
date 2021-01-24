@@ -1,0 +1,15 @@
+package ie.gmit.sw;
+
+import java.util.Collection;
+
+public class Eta {
+	public Collection<Beta> betas;
+	public Collection<Epsilon> epsilons;
+	public Collection<Zeta> zetas;
+
+	public Eta(Collection<Beta> betas, Collection<Epsilon> epsilons, Collection<Zeta> zetas) {
+		this.betas = betas;
+		this.epsilons = epsilons;
+		this.zetas = zetas;
+	}
+}

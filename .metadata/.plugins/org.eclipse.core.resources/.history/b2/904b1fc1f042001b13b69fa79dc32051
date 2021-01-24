@@ -1,0 +1,14 @@
+package ie.gmit.sw;
+
+import java.util.Collection;
+
+public class AlphaIterator {
+	public Status status;
+	public Collection<Lambda> betas;
+	public Collection<Gamma> gammas;
+
+	public AlphaIterator(Collection<Lambda> betas, Collection<Gamma> gammas) {
+		this.betas = betas;
+		this.gammas = gammas;
+	}
+}

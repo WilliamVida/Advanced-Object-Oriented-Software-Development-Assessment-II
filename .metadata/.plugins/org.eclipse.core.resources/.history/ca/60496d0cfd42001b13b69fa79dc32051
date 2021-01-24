@@ -1,0 +1,22 @@
+package ie.gmit.sw;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class DeltaAddRemove extends Delta {
+
+	Collection<Lambda> betas = new ArrayList<>();
+	Collection<Lambda> epsilons = new ArrayList<>();
+	Collection<Lambda> zetas = new ArrayList<>();
+
+	public void add(Lambda beta) {
+		betas.add(beta);
+		System.out.println("public void add(Beta beta) " + getClass() + "\n");
+	}
+
+	public void remove(Lambda beta) {
+		betas.remove(beta);
+		System.out.println("public void remove(Beta beta) " + getClass() + "\n");
+	}
+
+}

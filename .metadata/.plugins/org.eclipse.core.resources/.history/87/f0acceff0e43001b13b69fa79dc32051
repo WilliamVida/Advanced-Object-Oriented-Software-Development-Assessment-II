@@ -1,0 +1,23 @@
+package ie.gmit.sw;
+
+import java.util.Iterator;
+
+/**
+ * This class iterates through the collections of lambdas and gammas.
+ * 
+ * @author William Vida
+ */
+
+public class Omicron {
+
+	Sigma sigma = new Sigma();
+
+	public Iterator<Lambda> lambdaIterator() {
+		return sigma.lambdas.iterator();
+	}
+
+	public Iterator<Gamma> gammaIterator() {
+		return sigma.gammas.iterator();
+	}
+
+}

@@ -1,0 +1,11 @@
+package ie.gmit.sw;
+
+public class Beta implements temp {
+
+	@Override
+	public byte beta(byte b) {
+		int i = b;
+		return (byte) (i ^ 0xFFFFFFFF);
+	}
+
+}

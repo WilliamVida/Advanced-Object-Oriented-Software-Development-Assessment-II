@@ -1,0 +1,23 @@
+package ie.gmit.sw;
+
+import java.util.Iterator;
+
+/**
+ * 
+ * 
+ * @author William Vida
+ */
+
+public class AlphaIterator {
+
+	AlphaAddRemove alphaAddRemove = new AlphaAddRemove();
+
+	public Iterator<Lambda> lambdaIterator() {
+		return alphaAddRemove.lambdas.iterator();
+	}
+
+	public Iterator<Gamma> gammaIterator() {
+		return alphaAddRemove.gammas.iterator();
+	}
+
+}
